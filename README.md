@@ -11,6 +11,8 @@
   </a>
 </p>
 
+[![Discord Presence](https://lanyard.cnrad.dev/api/496393095282294796)](https://discord.com/users/496393095282294796)
+
 # 🤖 WordPress Discord Post Integration
 
 This project is an example of an integration used to automatically share new blog posts published on your WordPress site in a Discord channel. This way, every new post is automatically sent to the Discord channel you specify, allowing your followers to access the latest content instantly.
