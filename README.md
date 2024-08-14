@@ -6,7 +6,7 @@
   <a href="https://emirhankaya.net" target="_blank">
     <img src="https://img.shields.io/badge/Website-%23000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
-  <a href="https://x.com/EmirhanKaya_41" target="_blank">
+  <a href="https://x.com/Danteon0" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X" />
   </a>
 </p>
