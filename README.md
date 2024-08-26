@@ -135,6 +135,10 @@ You are now ready to send messages! You can use the `send_to_discord` function t
 send_to_discord($title, $author, $date, $content, $link, $image_url, $webhook_url, $author_avatar);
 ```
 
+## Example Post on Discord
+
+![Post](https://github.com/Danteon0/wordpress-discord-post-integration/blob/main/assets/notification.png)
+
 ## 📕 Considerations
 **Security**: Do not share your webhook URL with anyone.
 **Debugging**: If the message does not send, check your curl settings and webhook URL. For more support, you can join our Discord server.
