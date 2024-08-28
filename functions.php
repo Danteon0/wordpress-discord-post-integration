@@ -1,5 +1,5 @@
 <?php
-
+//Created by Danteon | github.com/Danteon0
 function send_to_discord($title, $author, $date, $content, $link, $image_url, $webhook_url, $author_avatar) {
     $embed = array(
         "title" => $title,
@@ -39,7 +39,7 @@ function send_to_discord($title, $author, $date, $content, $link, $image_url, $w
         error_log('An error occurred while sending the Discord webhook.');
     }
 }
-
+//Created by Danteon | github.com/Danteon0
 function discord_webhook_new_post($post_ID, $post) {
     // Return if already notified
     if (get_post_meta($post_ID, '_discord_notified', true)) {
@@ -51,7 +51,7 @@ function discord_webhook_new_post($post_ID, $post) {
         return;
     }
 
-    $webhook_url = 'WEBHOOK_URL'; //Your Webhook URL
+    $webhook_url = 'YOUR_WEBHOOK_URL'; //Your Webhook URL
     $title = get_the_title($post_ID);
     $author = get_the_author_meta('display_name', $post->post_author);
     $author_avatar = get_avatar_url($post->post_author);
@@ -78,3 +78,4 @@ function on_save_post($post_ID, $post, $update) {
 
 add_action('send_to_discord_event', 'discord_webhook_new_post', 10, 2);
 add_action('save_post', 'on_save_post', 10, 3);
+//Created by Danteon | github.com/Danteon0
